@@ -2,4 +2,4 @@
 
 # Table Of Contents
 
-- ### [Aarambh Mrec]([Programming Problems and Competitions :: HackerRank](https://www.hackerrank.com/contests/aarambh-mrec/challenges))
+- ### ([Aarambh Mrec](https://www.hackerrank.com/contests/aarambh-mrec/challenges))
