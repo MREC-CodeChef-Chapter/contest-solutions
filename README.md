@@ -1,6 +1,6 @@
 #  Contests
 
-### Aarambh Mrec
+### Aarambh
 
  - [Questions](https://www.hackerrank.com/contests/aarambh-mrec/challenges)
  - [Answers]()
