@@ -2,4 +2,4 @@
 
 # Table Of Contents
 
-- ### ([Aarambh Mrec](https://www.hackerrank.com/contests/aarambh-mrec/challenges))
+- ### [Aarambh Mrec](https://www.hackerrank.com/contests/aarambh-mrec/challenges)
