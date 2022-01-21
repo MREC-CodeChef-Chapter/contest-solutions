@@ -2,4 +2,5 @@
 
 # Table Of Contents
 
-- ### [Aarambh Mrec](https://www.hackerrank.com/contests/aarambh-mrec/challenges)
+* Contest Links
+  * [Aarambh Mrec](https://www.hackerrank.com/contests/aarambh-mrec/challenges)
