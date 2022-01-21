@@ -1,6 +1,10 @@
-#  Contests
+# CodeChef Chapter Contests 
 
-### Aarambh
+All the contests and their details
+
+
+
+### Aarambh 
 
  - [Questions](https://www.hackerrank.com/contests/aarambh-mrec/challenges)
  - [Answers]()
