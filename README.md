@@ -1,4 +1,4 @@
-# MREC CODECHEF CODING CONTEST SOLUTIONS
+# Chapter Contests
 
 ### Aarambh Mrec
 
