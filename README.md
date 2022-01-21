@@ -1,4 +1,4 @@
-# Chapter Contests
+#  Contests
 
 ### Aarambh Mrec
 
