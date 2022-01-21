@@ -1,6 +1,6 @@
-## MREC CODE CHEF CODING CONTEST SOLUTIONS
+# MREC CODECHEF CODING CONTEST SOLUTIONS
 
-# Table Of Contents
+### Aarambh Mrec
 
-* Contest Links
-  * [Aarambh Mrec](https://www.hackerrank.com/contests/aarambh-mrec/challenges)
+ - [Questions](https://www.hackerrank.com/contests/aarambh-mrec/challenges)
+ - [Answers]()
