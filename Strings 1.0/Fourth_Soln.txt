@@ -1,0 +1,37 @@
+
+Programming Language: Java
+
+
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner jin=new Scanner(System.in);
+        int t=jin.nextInt();
+        while(t-->0){
+            String a=jin.next();            
+            String b=jin.next(); 
+            int freqArr[]=new int[26];
+            Arrays.fill(freqArr,0);
+            for(int i=0;i<a.length();i++){
+                freqArr[a.charAt(i)-'A']++;
+            }
+            for(int i=0;i<b.length();i++){
+                freqArr[b.charAt(i)-'A']++;
+            }
+            int flag=0,cnt=0;
+            for(int i=0;i<26;i++){
+                if(freqArr[i]!=0){
+                    if((freqArr[i]&1)==1){
+                        flag=1;break;
+                    }else{
+                        cnt+=freqArr[i]/2;
+                    }
+                }
+            }
+            if(flag==1)System.out.println(-1);
+            else System.out.println(cnt);
+        }
+    }
+}
+

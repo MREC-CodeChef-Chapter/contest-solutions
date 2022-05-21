@@ -1,0 +1,13 @@
+
+Programming language: python
+
+
+for _ in range(int(input())):
+    s=input()
+    vowels=['a','e','i','o','u']
+    result=[]
+    for i in s:
+        if i.lower() not in vowels:
+            result.append(i)
+    result="".join(result)
+    print(result)

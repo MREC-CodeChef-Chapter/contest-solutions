@@ -1,0 +1,52 @@
+Problem Name:  Nowels                              |       Problem Code: nvowels01
+
+--------------------------------------------------------------------------------------------------------------------
+
+Brynn is having fun playing with strings while learning to code.
+As Brynn's name doesn't consists of any vowels , He wants to see how the other strings would look without any vowels in it.
+So your task is to print the given strings after removing all the vowels .
+
+NOTE:
+1. Input string may have space between words.
+2. All the characters are alphabets in lower case/upper case .
+
+--------------------------------------------------------------------------------------------------------------------
+
+Input format :
+
+  -> First line will contain T, number of testcases. Then the testcases follow.
+  -> Each testcase contains of a single line of input, string S. 
+
+---------------------------------------------------------------------------------------------------------------------
+
+Output format:
+
+  print the given string after modifying as specified .
+
+---------------------------------------------------------------------------------------------------------------------
+
+Contraints :
+
+  -> 1<=T<=100
+  -> 1<=|s|<=1000
+
+---------------------------------------------------------------------------------------------------------------------
+
+Sample Input :
+
+2
+Hey there
+strings are FUN 
+
+---------------------------------------------------------------------------------------------------------------------
+
+Sample output :
+
+Hy thr
+strngs r FN
+
+----------------------------------------------------------------------------------------------------------------------
+
+Explanation:
+
+All the vowels are removed and is printed after the modification .

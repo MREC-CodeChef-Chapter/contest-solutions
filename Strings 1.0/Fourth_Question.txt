@@ -1,0 +1,72 @@
+
+
+    Problem name: Paired Run                | Problem Code: PRUN22
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+	A paired running race event is being conducted in your college. After several rounds of filtering we have 2 teams left TeamA and
+	TeamB. Each team member of both teams were asked to randomly pick up some character label from the Magic Box. 
+	Now before the paired run begins each member of TeamA must be paired with each member of TeamB which is cross-pairing. 
+	If after all the pairings are done and still some members are left in any of the teams then self-pairing is done. 
+	In self pairing, members of the same team can be paired if and only if they have similar character labels.
+
+	Now since you are a volunteer, your task is to pair up all the members and gather some information. Incase all the members are 
+	paired up you need to print number of teams you could finally form. And if even a single member is left out you must print -1;	
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Input Format:
+
+   The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+   The first line of each test case contains a string denoting TeamA members.
+   The second line of each test case contains another string denoting TeamB members.
+   
+----------------------------------------------------------------------------------------------------------------------------
+
+Output Format:
+
+	If atleast one person was left out and couldn't form a pair then print -1 on a new line. Else print the number of pairs that were
+formed on a new line.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Constraints:
+
+  1<=T<=10000
+  1<=|TeamA|,|TeamB|<=1000
+
+NOTE: Both the strings contain only uppercase english alphabets.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Sample Input1:
+
+3
+AABBCC
+AABBCC
+ABCXYZ
+XYZABC
+ABMNA
+BMMN
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Sample Output1:
+
+6
+6
+-1
+----------------------------------------------------------------------------------------------------------------------------
+
+Explanation:
+
+Explanation of the third sample case: 
+
+Here,
+A goes for self pairing. A-A
+B goes for cross pairing. B-B
+N goes for cross pairing. N-N
+Since there are 3 M's we even if we try to pair 2 of them M-M , there is always atleast one M left out. Hence print -1;

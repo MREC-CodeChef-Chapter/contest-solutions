@@ -1,0 +1,55 @@
+Problem Name: FLIP_IT                                                                           Problem Code:FLP01
+
+------------------------------------------------------------------------------------------------------------------------
+
+You are given a string S of length N which consists of only two characters 'A' and 'K' and a number X. Your task is to find the length of the longest subsegment of K's possible by changing at most X A's to K.
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+Input Format:
+
+->The first line contains T denoting the number of test cases. Then the test cases follow.
+
+->The first line of each test case contains two integers N and X.
+
+->The second line of each test case contains a string S of length N.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Output Format:
+
+->Print a single integer which denotes the length of the longest subsegment of K's by changing at most X A's
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Constraints:
+
+1<=T<=100
+1<=N<=10000
+1<=X<=500
+|S|=N
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Sample Input 1:
+
+2
+7 1
+KAAKKAK
+10 2
+KAAKAKAKAK
+
+---------------------------------------------------------------------------------------------------------------------
+
+Sample Output 1:
+
+4
+5
+
+--------------------------------------------------------------------------------------------------------------------
+
+Explanation:
+
+Explanation for the first test case: Here we have three A's and we can change only one A to K . It is optimal to change the last A to K .The maximum length we
+achieve by changing the last A to K is 4 .

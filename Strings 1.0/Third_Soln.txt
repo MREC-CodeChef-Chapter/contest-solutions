@@ -1,0 +1,32 @@
+
+Programming Language: Java
+
+
+import java.util.*;
+public class Main
+{
+    public static String convert(String str){
+        String res=Character.toLowerCase(str.charAt(0))+"";
+        for(int i=1;i<str.length();i++){
+            char ch=str.charAt(i);
+            char prevCh=str.charAt(i-1);
+            if(prevCh=='_'){
+                res+=ch;
+            }else if(ch!='_'){
+                res+=Character.toLowerCase(ch);
+            }
+        }return res;
+    }
+	public static void main(String[] args) {
+	    Scanner jin=new Scanner(System.in);
+	    int t=jin.nextInt();
+	    while(t-->0){
+	        int n=jin.nextInt();
+	        while(n-->0){
+	            String str=jin.next();
+	            String res=convert(str);
+	            System.out.println(res);
+	        }
+	    }
+	}
+}

@@ -1,0 +1,41 @@
+//Java Code
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		  int t=sc.nextInt();
+		    while(t-->0)
+		    {
+		        int n=sc.nextInt();
+		        int x=sc.nextInt();
+		        String s=sc.next();
+		          int ans=0;
+		           int change=0;
+		            int forward=0,backward=0;
+		             while(forward<s.length())
+		             {
+		                 if(s.charAt(forward)=='A')
+		                 {
+		                     change++;
+		                 }
+		                 
+		                     while(change>x)
+		                     {
+		                         if(s.charAt(backward)=='A')
+		                         {
+		                             change--;
+		                         }
+		                         backward++;
+		                     }
+		                 
+		                 
+		                 ans=Math.max(ans,forward-backward+1);
+		                 
+		                 forward++;
+		             }
+		             System.out.println(ans);
+		    }
+	}
+}
