@@ -15,3 +15,8 @@ All the contests and their details
  - [Questions](https://www.hackerrank.com/contests/arrays-1-o/challenges)
  - [Answers](https://github.com/MREC-CodeChef-Chapter/Contests/tree/main/Arrays%201.0)
  - [Leaderboard](https://www.hackerrank.com/contests/arrays-1-o/leaderboard)
+
+### Strings 1.0
+
+- [Questions](https://github.com/MREC-CodeChef-Chapter/Contests/tree/main/Strings%201.0)
+- [Answers](https://github.com/MREC-CodeChef-Chapter/Contests/tree/main/Strings%201.0) 
