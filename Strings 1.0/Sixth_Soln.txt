@@ -1,0 +1,62 @@
+//Java Code
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		 int t=sc.nextInt();
+		   while(t-->0)
+		   {
+		       int n=sc.nextInt();
+                String first=sc.next();
+                String second=sc.next();
+                 int dp[]=new int[first.length()];
+                  int recent_top=n;
+                  int recent_bottom=n;
+                  for(int i=first.length()-1;i>=0;i--)
+                  {
+                      if(i==first.length()-1)
+                      {
+                          if(second.charAt(i)<first.charAt(i))
+                          {
+                              dp[i]=1;
+                              recent_top=i;
+                          }
+                          else if(second.charAt(i)==first.charAt(i))
+                          {
+                              dp[i]=0;
+                               recent_bottom=i;
+                               recent_top=i;
+                          }
+                          else{
+                              dp[i]=0;
+                              recent_bottom=i;
+                          }
+                      }
+                      else{
+                          if(second.charAt(i)<first.charAt(i))
+                          {
+                              dp[i]=1+dp[i+1];
+                              recent_top=i;
+                          }
+                          else if(second.charAt(i)==first.charAt(i)){
+                              if(recent_top<recent_bottom)
+                              {
+                                  dp[i]=1+dp[i+1];
+                              }
+                              else{
+                                  dp[i]=dp[i+1];
+                              }
+                          }
+                          else{
+                              dp[i]=dp[i+1];
+                               recent_bottom=i;
+                          }
+                      }
+                  }
+                   System.out.println(dp[0]);
+		   }
+	}
+}

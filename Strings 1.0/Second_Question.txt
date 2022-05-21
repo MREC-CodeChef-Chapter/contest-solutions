@@ -1,0 +1,62 @@
+Problem Name: Within String                               |       Problem Code:WS052
+
+--------------------------------------------------------------------------------------------------------------------
+
+You are given a main string S and an additional string N.
+Your task is to check if the additional string N is substring of any permutation of the main string S.
+
+NOTE:
+
+1. All the characters are alphabets in lower case only .
+
+--------------------------------------------------------------------------------------------------------------------
+
+Input format :
+
+  -> First line will contain T, number of testcases. Then the testcases follow.
+  -> Each testcase contains of two lines of input:
+      -> Main string S.
+      -> Additional string N .
+
+---------------------------------------------------------------------------------------------------------------------
+
+Output format:
+
+  print "YES" if the additional string is a substring of permutation of main string else print "NO".
+  
+  NOTE: "yes" and "YES" are considered different.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Contraints :
+
+  -> 1<=T<=100
+  -> 1<=|s|<=10000
+
+---------------------------------------------------------------------------------------------------------------------
+
+Sample Input :
+
+2
+hiking
+hing
+frost
+frog
+ 
+
+---------------------------------------------------------------------------------------------------------------------
+
+Sample output :
+
+YES
+NO
+
+----------------------------------------------------------------------------------------------------------------------
+
+Explanation:
+
+Test case 1:
+since hing is a substring we print "YES" .
+
+Test case 2:
+frog cannot be formed no matter what permuation we apply on the main string , we print "NO"  . 

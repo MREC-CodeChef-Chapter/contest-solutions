@@ -1,0 +1,26 @@
+Programming language: python
+
+
+for _ in range(int(input())):
+    s=input()
+    n=input()
+
+    freq=[0 for i in range(26)]  
+    flag=1
+
+    for i in s:
+        index=ord(i)-97
+        freq[index]+=1
+        
+    for i in n:          
+        index=ord(i)-97
+        if freq[index]>0:
+            freq[index]-=1
+        else:
+            flag=0
+            break
+        
+    if flag:
+        print("YES")
+    else:
+        print("NO")

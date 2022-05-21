@@ -1,0 +1,76 @@
+
+
+    Problem name: Camel Cased                | Problem Code: CACA22
+
+----------------------------------------------------------------------------------------------------------------------------
+
+
+	Hurray! Chef got his first internship. Chef was recruited for JAVA-coder profile. Everyone is aware of chef's excellent 
+	cooking skills , but little does anybody know, that he recently started coding.
+
+	Today is his first day at work and he was given the following task for the day:
+	There are T number of java programs and chef has to convert each final variable to a normal variable in each program.
+
+	Chef can identify final variables with the help of final keyword and give them to you. Your task would be to convert them
+	into "camel cased" variables and give the output to chef.
+
+	Note: 
+	i.) Final variables can contain: all uppercase letters [A-Z] using a single underscore to separate words.
+	ii.) Camel cased variables can contain: only starting letter as lowercase and if the variable name has two or more words 
+	they are combined with their starting letter in uppercase.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Input Format:
+
+   The first line of input contains a single integer T denoting the number of java program files given to chef.
+   The description of T programs follows.
+   The first line of each program description contains an integer N denoting the number of final variables chef identified in 
+   that program file.
+   Each of the next N lines contains one variable name string S that must be converted.
+   
+----------------------------------------------------------------------------------------------------------------------------
+
+Output Format:
+
+	Print each converted variable name on a new line.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Constraints:
+
+  1<=T<=100
+  1<=N<=1000
+  1<=|S|<=1000
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Sample Input1:
+
+2
+1
+MAX_VALUE
+3
+MOD
+N
+DATE_OF_BIRTH
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Sample Output1:
+
+maxValue
+mod
+n
+dateOfBirth
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Explanation:
+
+Explanation of the first java program of the sample case: 
+
+Only one variable name is given and its converted to camel case.
+
