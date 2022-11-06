@@ -20,3 +20,9 @@ All the contests and their details
 
 - [Questions](https://github.com/MREC-CodeChef-Chapter/Contests/tree/main/Strings%201.0)
 - [Answers](https://github.com/MREC-CodeChef-Chapter/Contests/tree/main/Strings%201.0) 
+
+### Aarambh 2.0
+
+- [Questions]()
+- [Answers]()
+- [Leaderboard]()
