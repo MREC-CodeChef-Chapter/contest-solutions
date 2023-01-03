@@ -2,8 +2,6 @@
 
 All the contests and their details
 
-
-
 ### Aarambh 
 
  - [Questions](https://www.hackerrank.com/contests/aarambh-mrec/challenges)
@@ -26,3 +24,9 @@ All the contests and their details
 - [Questions]()
 - [Answers]()
 - [Leaderboard]()
+
+### Sophomore Coding Contest [January 3rd]
+
+- [Questions]()
+- [Answers](https://github.com/MREC-CodeChef-Chapter/Contests/tree/main/Sophomore/answers)
+- [Leaderboard](https://github.com/MREC-CodeChef-Chapter/Contests/blob/main/Sophomore/Leaderboard-Sophomore-Contest%20-%20leaderboard-sophomore-coding-contest.pdf)
