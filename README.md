@@ -25,7 +25,7 @@ All the contests and their details
 - [Answers]()
 - [Leaderboard]()
 
-### Sophomore Coding Contest [January 3rd]
+### Sophomore Coding Contest
 
 - [Questions]()
 - [Answers](https://github.com/MREC-CodeChef-Chapter/Contests/tree/main/Sophomore/answers)
